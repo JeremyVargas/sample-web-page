@@ -1,0 +1,22 @@
+{
+  "name": "sample-web-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeremyVargas/sample-web-page.git"
+  },
+  "author": "Jeremy Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeremyVargas/sample-web-page/issues"
+  },
+  "homepage": "https://github.com/JeremyVargas/sample-web-page#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
