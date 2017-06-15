@@ -18,5 +18,10 @@
   "homepage": "https://github.com/JeremyVargas/sample-web-page#readme",
   "dependencies": {
     "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "ev": "0.0.7",
+    "grunt": "^1.0.1"
   }
 }
