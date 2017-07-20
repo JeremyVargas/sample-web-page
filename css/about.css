@@ -1,5 +1,14 @@
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.media-object {
+	padding-right: 35px;
+	padding-top: 45px;
+}
+
+p {
+	text-align: left;
 }
