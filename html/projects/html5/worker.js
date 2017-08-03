@@ -8,7 +8,7 @@ function startWorker() {
     }
     
     w.addEventListener("message", function(event) {
-      document.getElementById("result").innerHTML = event.data;    
+      document.getElementById("result").innerHTML = "Live date: " + event.data;    
     });
   
   } else {
@@ -16,7 +16,15 @@ function startWorker() {
     }
   }
 
+  function getDateTime() {
+    var date = new Date();
+    postMessage(date.toLocaleString());
+    setTimeout("getDateTime()", 1000);
+  }
+
   function stopWorker() { 
     w.terminate();
     w = undefined;
   }
+
+  getDateTime();
